@@ -12,3 +12,7 @@ Install the package via Composer:
 
 ```sh
 composer require aclaude/regez
+```
+
+## Trivia
+Regex + ez (easy) = Regez
