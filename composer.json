@@ -1,6 +1,6 @@
 {
     "name": "aclaude/regez",
-    "description": "A small package to easier generate regex matching for a given string, focusing on the abstractization part of using it.",
+    "description": "A small PHP library to build and execute regular expressions in a fluent interface, easier to generate and understand for developers.",
     "authors": [
         {
             "name": "Apetroaei Claudiu",
@@ -20,5 +20,6 @@
     },
     "scripts": {
         "test": "phpunit"
-    }
+    },
+    "license": "MIT"
 }
