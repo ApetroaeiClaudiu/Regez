@@ -31,7 +31,7 @@ class RegexGenerator
     {
         $this->pattern .= "/";
 
-        return preg_replace($this->pattern, $this->subject, $to_replace);
+        return preg_replace($this->pattern, $to_replace, $this->subject);
     }
 
     public function getPattern(): string
@@ -175,7 +175,7 @@ class RegexGenerator
     public function or(string $pattern): self
     {
         $this->pattern .= "|" . $pattern;
-        
+
         return $this;
     }
 }
